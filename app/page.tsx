@@ -18,7 +18,9 @@ export default function UploadPage() {
 
         <div className="relative border-8 border-black bg-gradient-to-br from-cyan-300 via-blue-200 to-purple-300 shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-300">
           <div className="p-8">
-            <h1 className="text-4xl font-black text-black mb-6 transform -skew-x-6 text-center">DOCUMENT ANALYZER!</h1>
+            <h1 className="text-4xl font-black text-black mb-6 transform -skew-x-6 text-center">
+              DOCUMENT ANALYZER!
+            </h1>
             <DocumentAnalyzer />
           </div>
 
