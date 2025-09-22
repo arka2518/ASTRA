@@ -1,3 +1,0 @@
-git add package.json pnpm-lock.yaml
-git commit -m "fix: downgrade tailwind to v3 for vercel deployment"
-git push
