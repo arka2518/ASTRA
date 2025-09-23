@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState } from "react"
-import { Button } from "@/ui/button"
+import { Button } from "@/components/ui/button"  // ← FIXED PATH
 import { Upload, Brain, FileText, Lightbulb, BookOpen } from "lucide-react"
 
 export default function DocumentAnalyzer() {
