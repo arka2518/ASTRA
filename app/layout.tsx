@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import { Grape_Nuts as Papyrus } from "next/font/google"
-import "../styles/globals.css"  // ← FIXED PATH
+import "./globals.css"  // ← FIXED PATH - both files in same app folder
 
 const papyrus = Papyrus({
   subsets: ["latin"],
@@ -33,4 +33,3 @@ export default function RootLayout({
     </html>
   )
 }
-
