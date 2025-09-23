@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import { Grape_Nuts as Papyrus } from "next/font/google"
-import "./globals.css"  // ← FIXED THIS LINE
+import "../styles/globals.css"  // ← FIXED PATH
 
 const papyrus = Papyrus({
   subsets: ["latin"],
